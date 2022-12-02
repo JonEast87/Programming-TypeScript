@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    // lib === Which API should TSC assume exist with the environment
+    "lib": [
+      "es2015"
+    ],
+    // module === which mod system should TSC compile your code too
+    "module": "commonjs",
+    // outDir === which folder the compiler will place the JavaScript into
+    "outDir": "dist",
+    "sourceMap": true,
+    // strict === ensures that the rule set is as strict as possible when enforcing rules on typed code
+    "strict": true,
+    // target === confirms the version of JavaScript the TSC will convert the JS too
+    "target": "es2015"
+  },
+  // include === which folders TSC looks to find your TypeScript files
+  "include": [
+    "src"
+  ]
+}
